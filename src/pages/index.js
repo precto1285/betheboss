@@ -8,9 +8,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Be The Boss Program</h1>
+    <p>Marzipan wafer chupa chups wafer fruitcake candy. Croissant 
+      jujubes cotton candy cake caramels jelly beans jelly beans 
+      lemon drops cupcake. Dragée bear claw icing. Danish cheesecake 
+      dessert donut icing jelly-o macaroon wafer muffin. Liquorice 
+      marzipan caramels brownie carrot cake ice cream. Dragée tootsie 
+      roll pie. Sweet roll oat cake marshmallow jelly beans.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
