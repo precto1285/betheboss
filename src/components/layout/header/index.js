@@ -4,7 +4,8 @@ import {
   Logo,
   Menu,
   Nav,
-  Spacer,
+  StyledImg
+  // Spacer,
 } from "./style"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
@@ -24,7 +25,7 @@ const Header = () => (
       </SmallLogo> */}
       <Logo>
         <Link to="/">
-          <img alt="Be The Boss" src={btbLogo} />
+          <StyledImg alt="Be The Boss" src={btbLogo} />
         </Link>
       </Logo>
       {/* <Spacer /> */}

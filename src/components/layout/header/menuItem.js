@@ -13,7 +13,8 @@ const MenuItem = ({ children, ...props }) => (
         height: "100%",
         justifyContent: "center",
         width: "100%",
-        textTransform: "uppercase"
+        textTransform: "uppercase",
+        fontSize: "1.5rem"
       }}
       activeClassName="active"
     >

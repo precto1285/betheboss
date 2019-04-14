@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 import { NAV_HEIGHT } from "../../../utils/constants"
 
+export const StyledImg = styled.img`
+  height: 80px;
+`;
+
 export const StyledHeader = styled.header`
     background: #DF6439;
     margin-bottom: 1.45rem;
@@ -15,12 +19,12 @@ export const Container = styled.div`
 `
 
 export const Logo = styled.div`
-  background: white;
-  border-radius: 0 0 50px;
+  background: #F7CD47;
+  /* border-radius: 0 0 50px; */
   box-shadow: 1px 3px 3px rgba(255,255,255,0.2);
   height: ${NAV_HEIGHT};
   width: 350px;
-  flex: 8;
+  flex: 1;
   img {
     margin-bottom: 0;
   }
@@ -39,6 +43,7 @@ export const Logo = styled.div`
 export const Menu = styled.ul`
   background-color: #F7CD47;
   align-items: center;
+  flex: 4;
   display: flex;
   flex-grow: 3;
   font-size: 2rem;
