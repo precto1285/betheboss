@@ -15,7 +15,7 @@ const IndexPage = () => (
         <h1>Be The Boss Program</h1>
       </div>
       <Row className="my-3 bg-light p-3">
-        <p>Our Be The Boss Internship Program transforms youth and young adults (ages 16-24) into confident and successful  entrepreneurs. </p>
+        <p>Our <span className="text-uppercase">Be The Boss Internship Program</span> transforms youth and young adults (ages 16-24) into confident and successful  entrepreneurs. </p>
 
         <p>Through our six-week program, interns generate business ideas, conduct market research, write business plans, pitch to a panel of investors, and launch their very own businesses.</p>
       </Row>
