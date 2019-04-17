@@ -41,12 +41,7 @@ const IndexPage = () => (
         </Row>
 
         <Row>
-          <div className="col-sm-8 my-auto">
-            <Row>
-              <img src={Sdth} width="100%" height="100%" />
-            </Row>
-          </div>
-          <div className="col-sm-4">
+          <div className="col-sm-12">
             <PhotoSlider />
           </div>
         </Row>
