@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Kids from '../images/be-the-boss-business.jpg'
+import PhotoSlider from './indexComponents/PhotoSlider'
 
 
 const IndexPage = () => (
@@ -72,7 +73,7 @@ const IndexPage = () => (
               complete the program
         </li>
           </ul>
-
+          <PhotoSlider />
         </div>
         <div className="col-md-6">
           <Card className="p-3">
