@@ -1,0 +1,7 @@
+.JumbotronImg{
+  background-image: url('../../images/be-the-boss-ideas.jpg');
+  background-repeat:no-repeat;
+}
+.idea{
+  opacity:0.8;
+}
