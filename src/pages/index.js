@@ -16,22 +16,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div>
-      <div className="my-5 text-center">
+      <div className="text-center">
         <HeaderLogo />
       </div>
-
+      <Row className="mb-2 bg-primary text-white p-3">
+        <div className="col-lg-12">
+          <BusinessResourceLink />
+        </div>
+      </Row>
       <Row className="my-3 bg-light p-3">
         <div className="col-lg-6">
           <img src={Kids} width='100%' />
         </div>
         <div className="col-lg-6">
           <IntroParagraph />
-        </div>
-      </Row>
-
-      <Row className="my-5  bg-primary text-white p-3">
-        <div className="col-lg-12">
-          <BusinessResourceLink />
         </div>
       </Row>
 

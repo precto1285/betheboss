@@ -1,20 +1,20 @@
 import React from 'react';
 import Icon from '../../images/bethebossicon.png';
-import { Jumbotron, Row, Col, Button } from 'reactstrap';
+import { Row, Col, Button } from 'reactstrap';
 import './HeaderImg.css';
 
 const HeaderLogo = () => {
   return (
-    <Jumbotron className="bg-white JumbotronImg">
-      <Row className="my-5">
+    <div className="JumbotronImg py-5">
+      <Row>
         <Col className="py-3">
-          <img className="idea" src={Icon} width="70%" height="70%" />
+          <img className="idea" src={Icon} width="70%" height="100%" />
         </Col>
         <Col className="my-auto" >
           <Button className="btn-warning text-white">Support Our Work</Button>
         </Col>
       </Row>
-    </Jumbotron>
+    </div>
 
 
   )
