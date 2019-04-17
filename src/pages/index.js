@@ -18,27 +18,30 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Container>
       <div className="my-5 text-center">
-        <img src={Logo} width='80%' />
-
+        <img src={Logo} width='60%' />
       </div>
+
       <Row className="my-3 bg-light p-3">
-        <div className="col-lg-6">
-          <IntroParagraph />
-        </div>
         <div className="col-lg-6">
           <img src={Kids} width='100%' />
         </div>
+        <div className="col-lg-6">
+          <IntroParagraph />
+        </div>
       </Row>
+
+      <Row className="my-5 bg-primary">
+        <div className="col-lg-12">
+          <BusinessResourceLink />
+        </div>
+      </Row>
+
       <Row>
         <div className="col-lg-12">
           <CriteriaRequirements />
         </div>
       </Row>
-      <Row className="my-5">
-        <div className="col-lg-12">
-          <BusinessResourceLink />
-        </div>
-      </Row>
+
       <Row>
         <div className="col-sm-8 my-auto">
           <Row>
@@ -49,6 +52,7 @@ const IndexPage = () => (
           <PhotoSlider />
         </div>
       </Row>
+
     </Container>
 
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>

@@ -17,9 +17,6 @@ const CriteriaRequirement = () => {
           <li>Does not have access to entrepreneurial resources from a family network</li>
         </ul>
       </div>
-      <div className="card-footer">
-        <Button className="btn-block btn-danger">Support Our Work</Button>
-      </div>
     </Card>
   )
 }
