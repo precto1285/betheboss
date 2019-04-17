@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Kids from '../images/be-the-boss-business.jpg'
-// import PhotoSlider from './indexComponents/PhotoSlider'
+
 
 const IndexPage = () => (
   <Layout>
