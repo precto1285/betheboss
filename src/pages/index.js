@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Container>
-      <div className="my-5 text-center">
+      <div id="pageTop" className="my-5 text-center">
         <img src={Logo} width='60%' />
       </div>
 
@@ -30,7 +30,7 @@ const IndexPage = () => (
         </div>
       </Row>
 
-      <Row className="my-5 bg-primary">
+      <Row className="my-5  bg-primary text-white p-3">
         <div className="col-lg-12">
           <BusinessResourceLink />
         </div>
