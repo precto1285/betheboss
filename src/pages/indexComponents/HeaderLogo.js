@@ -11,7 +11,7 @@ const HeaderLogo = () => {
           <img className="idea" src={Icon} width="70%" height="70%" />
         </Col>
         <Col className="my-auto" >
-          <Button ClassName="btn-lg m-auto">Enroll Now!</Button>
+          <Button className="btn-warning text-white">Support Our Work</Button>
         </Col>
       </Row>
     </Jumbotron>
