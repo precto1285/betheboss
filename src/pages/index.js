@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Kids from '../images/be-the-boss-business.jpg'
+// import PhotoSlider from './indexComponents/PhotoSlider'
 
 const IndexPage = () => (
   <Layout>
@@ -71,25 +72,35 @@ const IndexPage = () => (
               complete the program
         </li>
           </ul>
+
         </div>
         <div className="col-md-6">
-          <Form>
-            <h4>Application:</h4>
-            <FormGroup>
-              <Label>Name:</Label>
-              <Input type="text"></Input>
-              <Label>Age:</Label>
-              <Input type="text"></Input>
-            </FormGroup>
-            <p>Why do you want to take part in this internship program?</p>
-            <p>Do you have any hobbies?</p>
-            <p>What do you like to do in your free time?</p>
-            <p>What are you passionate about? How do you express your passion in your life?</p>
-            <p>Name someone who you look at as a role model and explain why you see them in that way?</p>
-            <p>Are you prepared to devote at least 6 hours a week over the summer for 8 weeks in order
-              to successfully complete the program?
-      </p>
-          </Form>
+          <Card className="p-3">
+            <Form>
+              <h4>Application:</h4>
+              <FormGroup>
+                <Label>Name:</Label>
+                <Input type="text"></Input>
+                <Label>Age:</Label>
+                <Input type="text"></Input>
+                <Label>Why do you want to take part in this internship program?</Label>
+                <Input type="textarea"></Input>
+                <Label>Do you have any hobbies?</Label>
+                <Input type="textarea"></Input>
+                <Label>What do you like to do in your free time?</Label>
+                <Input type="textarea"></Input>
+                <Label>What are you passionate about? How do you express your passion in your life?</Label>
+                <Input type="textarea"></Input>
+                <Label>Name someone who you look at as a role model and explain why you see them in that way?</Label>
+                <Input type="textarea"></Input>
+                <Label>Are you prepared to devote at least 6 hours a week over the summer for 8 weeks in order
+                  to successfully complete the program?
+        </Label>
+                <Input type="textarea"></Input>
+              </FormGroup>
+              <Button>Submit</Button>
+            </Form>
+          </Card>
         </div>
       </Row>
     </Container>
