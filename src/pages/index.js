@@ -15,7 +15,7 @@ import HeaderLogo from "./indexComponents/HeaderLogo";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Container>
+    <div>
       <div className="my-5 text-center">
         <HeaderLogo />
       </div>
@@ -35,24 +35,25 @@ const IndexPage = () => (
         </div>
       </Row>
 
-      <Row className="mb-5">
-        <div className="col-lg-12">
-          <CriteriaRequirements />
-        </div>
-      </Row>
+      <Container>
+        <Row className="mb-5">
+          <div className="col-lg-12">
+            <CriteriaRequirements />
+          </div>
+        </Row>
 
-      <Row>
-        <div className="col-sm-8 my-auto">
-          <Row>
-            <img src={Sdth} width="100%" height="100%" />
-          </Row>
-        </div>
-        <div className="col-sm-4">
-          <PhotoSlider />
-        </div>
-      </Row>
-
-    </Container>
+        <Row>
+          <div className="col-sm-8 my-auto">
+            <Row>
+              <img src={Sdth} width="100%" height="100%" />
+            </Row>
+          </div>
+          <div className="col-sm-4">
+            <PhotoSlider />
+          </div>
+        </Row>
+      </Container>
+    </div>
 
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
