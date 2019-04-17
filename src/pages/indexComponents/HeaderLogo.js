@@ -11,12 +11,10 @@ const HeaderLogo = () => {
           <img className="idea" src={Icon} alt='icon' width="70%" height="100%" />
         </Col>
         <Col className="my-auto" >
-          <Button className="btn-warning text-white">Support Our Work</Button>
+          <Button className="btn btn-outline-info text-white">Support Our Work</Button>
         </Col>
       </Row>
     </div>
-
-
   )
 }
 

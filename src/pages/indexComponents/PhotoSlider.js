@@ -8,7 +8,7 @@ const PhotoSlider = () => {
   return (
     <Row>
       <Col className="col-sm-4 pt-5">
-        <img src={Sdth} alt='sdth' />
+        <img src={Sdth} alt='sdth' width="100%" height="40%" />
         <center><p>With sponsorships from:</p></center>
       </Col>
       <Col className="col-sm-4">

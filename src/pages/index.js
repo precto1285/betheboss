@@ -28,7 +28,7 @@ const IndexPage = () => (
         <div className="col-lg-6">
           <img src={Kids} width='100%' />
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 mt-4">
           <IntroParagraph />
         </div>
       </Row>
