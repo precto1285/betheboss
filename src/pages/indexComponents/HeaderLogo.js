@@ -7,14 +7,14 @@ const HeaderLogo = () => {
   return (
     <div className="JumbotronImg py-5">
       <Row>
-        <Col className="col-sm-6 py-3">
-          <img className="idea" src={Business} alt='icon' width="60%" height="90%" />
+        <Col className="col-sm-12 py-3">
+          <img className="idea" src={Business} alt='icon' width="30%" height="80%" />
         </Col>
       </Row>
       <Row>
-        <Col className="col-sm-4"><Button className="btn btn-info text-white">Support Our Work</Button></Col>
+        <Col className="col-sm-12 "><Button className="btn btn-info text-white">Support Our Work</Button></Col>
       </Row>
-    </div>
+    </div >
   )
 }
 
