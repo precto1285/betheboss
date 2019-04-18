@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.css'
 import { Container, Row } from 'reactstrap'
 import Layout from "../components/layout"
@@ -8,7 +9,6 @@ import PhotoSlider from './indexComponents/PhotoSlider'
 import IntroParagraph from "./indexComponents/IntroParagraph";
 import BusinessResourceLink from "./indexComponents/BusinessResourceLink";
 import HeaderLogo from "./indexComponents/HeaderLogo";
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -21,14 +21,15 @@ const IndexPage = () => (
           <BusinessResourceLink />
         </div>
       </Row>
+      <Row className="p-5">
+        <div className="col-lg-12">
+          <IntroParagraph />
+        </div>
+      </Row>
+
       <Container>
-        <Row className="my-3 p-3">
-          <div className="col-lg-12">
-            <IntroParagraph />
-          </div>
-        </Row>
-        <Row className="m-auto">
-          <div className="col-lg-12 p-5">
+        <Row>
+          <div className="col-sm-12">
             <PhotoSlider />
           </div>
         </Row>
@@ -38,7 +39,6 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-
   </Layout>
 )
 

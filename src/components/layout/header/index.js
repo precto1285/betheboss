@@ -23,11 +23,7 @@ const Header = () => (
           <img alt="Be The Boss" src={btbLogo} />
         </Link>
       </SmallLogo> */}
-      <Logo>
-        <Link to="/">
-          <StyledImg alt="Be The Boss" src={btbLogo} />
-        </Link>
-      </Logo>
+
       {/* <Spacer /> */}
       <Menu>
         <MenuItem to="/about">About</MenuItem>
