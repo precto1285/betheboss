@@ -5,15 +5,16 @@ import Vus from '../../images/vista-unified-school-district.jpg';
 
 const PhotoSlider = () => {
   return (
-    <Row>
-
-      <Col className="col-sm-6">
-        <img src={Vus} alt='vus' />
-      </Col>
-      <Col className="col-sm-6 pt-5">
-        <img src={SdWf} alt='sdwf' />
-      </Col>
-    </Row>
+    <div>
+      <Row className="p-2">
+        <Col className="col-sm-6">
+          <center><img src={Vus} alt='vus' width="55%" height="90%" /></center>
+        </Col>
+        <Col className="col-sm-6 pt-5">
+          <img src={SdWf} alt='sdwf' height="70%" width="100%" />
+        </Col>
+      </Row>
+    </div>
   )
 }
 
