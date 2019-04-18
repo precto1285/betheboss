@@ -11,7 +11,7 @@ const IntroParagraph = () => {
         <p>Through our six-week program, interns generate business ideas, conduct market research, write business plans, pitch to a panel of investors, and launch their very own businesses.</p>
       </div>
       <div classNme="card-footer">
-        <img src={Sdth} alt='sdth' />
+        <center><img src={Sdth} alt='sdth' width="60%" height="60%" /></center>
       </div>
 
     </Card>

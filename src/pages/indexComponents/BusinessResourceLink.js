@@ -3,9 +3,9 @@ import { Button } from 'reactstrap';
 
 const BusinessResourceLink = () => {
   return (
-    <div className="bg-primary py-auto">
-      <h5> Receive free business resources and learn more about our incredible intern program by <span><Button className="btn-success text-uppercase font-weight-bolder">signing up</Button></span></h5>
-    </div>
+    <div className="bg-primary">
+      <center><p>receive free business resources and learn more about our incredible intern program by <span><Button className="btn-success font-weight-bolder">signing up</Button></span></p></center>
+    </div >
   )
 }
 
