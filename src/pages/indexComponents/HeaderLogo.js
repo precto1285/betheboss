@@ -11,10 +11,7 @@ const HeaderLogo = () => {
           <img className="idea" src={Business} alt='icon' width="30%" height="80%" />
         </Col>
       </Row>
-      <Row>
-        <Col className="col-sm-12 "><Button className="btn btn-info text-white">Support Our Work</Button></Col>
-      </Row>
-    </div >
+    </div>
   )
 }
 
